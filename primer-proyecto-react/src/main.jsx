@@ -5,7 +5,7 @@ import { ContadorApp } from './ContadorApp.jsx'
 import '../styles/styles.css'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <PrimerComponente nombre='Nicolas' apellido="Lacave" />
-    <ContadorApp />
+    <PrimerComponente nombre='Juan' apellido='Perez'/>
+    <ContadorApp value={0}/>
   </StrictMode>,
 )

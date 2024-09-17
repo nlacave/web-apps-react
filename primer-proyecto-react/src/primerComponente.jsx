@@ -38,5 +38,3 @@ PrimerComponente.propTypes = {
     nombre: propTypes.string.isRequired,
     apellido: propTypes.string.isRequired
 }
-
-

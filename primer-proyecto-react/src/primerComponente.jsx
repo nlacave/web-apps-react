@@ -19,7 +19,7 @@ export default PrimerComponente;
 
 */
 
-
+/*
 import React from 'react'
 import propTypes from 'prop-types';
 import '../styles/primerComponente.css'
@@ -38,3 +38,5 @@ PrimerComponente.propTypes = {
     nombre: propTypes.string.isRequired,
     apellido: propTypes.string.isRequired
 }
+
+*/

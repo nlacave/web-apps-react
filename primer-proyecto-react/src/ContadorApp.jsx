@@ -1,17 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-let contador = 0;
 
-const handleClick = (value) => {
-    value += 1;
-    console.log(value)
+export const ContadorApp = () => {
+  const [contador, setContador] = useState(0);
+  const handleClick = () => {
+    setContador(contador + 1);
 }
 
-export const ContadorApp = ({value}) => {
   return (
     <>
         <h1>Contador: {contador}</h1>
-        <button onClick={handleClick(value)}>Sumar</button>
+        <button onClick={handleClick}>Sumar</button>
     </>    
   )
 }

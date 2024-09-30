@@ -7,6 +7,9 @@ button {
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: background-color 0.3s ease, transform 0.3 ease;
+    margin: 20px 10px;
+    width: 300px;
+    height: auto;
 }
 
 button:hover {
@@ -15,7 +18,13 @@ button:hover {
 }
 
 div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    background-color: #a0a0a0;
+    border-radius: 10px;
+}
+
+.tarea {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15px;
 }

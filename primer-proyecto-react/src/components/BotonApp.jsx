@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import '../styles/botonApp.css'
 
 const Boton = () => {
   const [contador, setContador] = useState(0);
@@ -11,11 +12,11 @@ const Boton = () => {
 export const BotonApp = () => {
   return (
     <>
-      <div>{
+      {
       Array.from({ length: 10}).map((_, index) => (
         <Boton key={index} />
       ))
-    }</div>
+    }
     </>
   )
 }
